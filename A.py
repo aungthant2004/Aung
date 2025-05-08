@@ -2,22 +2,29 @@ import requests
 import time
 import re
 
-BOT_TOKEN = '8060373757:AAEpTMmPH8AVxEN4XdwirFTlPWbUfAfnmEA'
+BOT_TOKEN = '7585977578:AAFxo3T5s5kaOOu0eiG3wiWkO_lD8poYkjk'
 BASE_URL = f'https://api.telegram.org/bot{BOT_TOKEN}'
 
-ALLOWED_GROUPS = ['donghuasone555', 'daoofdonghuafanchat', 'error21092']
+ALLOWED_GROUPS = ['donghuasone555', 'dOnGhUaSoNe555', 'daoofdonghua2DFanChat', 'daoofdonghuafanchat', 'error21092']
 
-# Add allowed usernames or link patterns here
+
 ALLOWED_LINK_PATTERNS = [
     r'https://t\.me/daoofdonghua\S*',
-    r'https://t\.me/aung28762\S*',
+    r'https://t\.me/DaoOfDonghua\S*',
     r'https://t.me/DAO_MMS10',
     r'https://t.me/DAO_MMS6',
     r'https://t.me/DAO_MMS9',
     r'https://t.me/btth2021BTTH2025',
     r'https://t.me/Alchemysupremedod',
     r'https://t.me/Therebirtheoftangsan',
-    R'https://t.me/AllchineseanimeS'
+    r'https://t.me/AllchineseanimeS',
+    r'https://t.me/MrStone007',
+    r'https://t.me/AllchineseanimeS',
+    r'https://cutt.ly/PwF5lMPd',
+    r'https://t.me/DiamondStore899',
+    r'https://t.me/daoofdonghua2DFanChat',
+    r'https://t.me/dOnGhUaSoNe555'
+    r'https://t.me/daoofdonghuafanchat'
 ]
 
 
