@@ -10,6 +10,7 @@ ALLOWED_GROUPS = [
     'dOnGhUaSoNe555',
     'daoofdonghua2DFanChat',
     'daoofdonghuafanchat',
+    'ChineseanimesDOD',
     'error21092'
 ]
 
